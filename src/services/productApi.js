@@ -32,7 +32,7 @@ export const productApi = createApi({
             query: (formData) => ({
                 url: `products/`,
                 method: 'POST',
-                body: 'formData'
+                body: formData
             })
         }),
 
